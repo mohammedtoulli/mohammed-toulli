@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <!-- SEO Metadata -->
+    <title>Mohammed Toulli</title>
+    <meta name="description" content="Site officiel des Ultras Shark 2006, supporters de l'Olympique Club de Safi (OCS). Ferveur, Fidélité, Honneur et Loyauté.">
+    <meta name="keywords" content="Ultras Shark, Safi, OCS, Ultras Maroc, Shark 2006, Football Safi, Curva Arena">
+    <meta name="author" content="Ultras Shark Family">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://ultrasshark2006.com/">
+    <meta property="og:title" content="Ultras Shark 2006 | Ferveur et Fidélité">
+    <meta property="og:description" content="Une ville... Un club... Un groupe. Découvrez l'histoire et la passion des Ultras Shark 2006.">
+    <meta property="og:image" content="/src/assets/logo.png">
+
+    <style>
+      /* Preloader Styles */
+      #preloader {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: #050101;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 9999;
+        transition: opacity 0.5s ease-out;
+      }
+      .loader {
+        width: 50px;
+        height: 50px;
+        border: 3px solid rgba(227, 28, 37, 0.3);
+        border-radius: 50%;
+        border-top-color: #E31C25;
+        animation: spin 1s ease-in-out infinite;
+      }
+      @keyframes spin {
+        to { transform: rotate(360deg); }
+      }
+      body.loaded #preloader {
+        opacity: 0;
+        pointer-events: none;
+      }
+    </style>
+    <script type="module" crossorigin src="/assets/index-BW__cCjw.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-BgaW49vq.css">
+  </head>
+  <body>
+    <div id="preloader">
+      <div class="loader"></div>
+    </div>
+    <div id="root"></div>
+    <script>
+      window.addEventListener('load', () => {
+        setTimeout(() => {
+          document.body.classList.add('loaded');
+        }, 500);
+      });
+    </script>
+  </body>
+</html>

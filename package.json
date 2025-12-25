@@ -1,0 +1,24 @@
+{
+  "name": "ultras-shark",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "homepage": "https://mohammed-toulli.github.io/mohammed-toulli",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
+    "lint": "eslint .",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^5.1.1",
+    "gh-pages": "^6.3.0",
+    "vite": "^7.2.4"
+  }
+}
