@@ -1,16 +1,65 @@
-# React + Vite
+# Professional Developer Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A high-performance, interactive personal portfolio website built for Full Stack Developers. Features a "Digital Architect" theme with advanced animations and 3D effects.
 
-Currently, two official plugins are available:
+## 🚀 Live Demo
+[Link to your live demo here]
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Features
 
-## React Compiler
+- **Cyber/Terminal Aesthetic**: Dark mode with neon accents and coding themes.
+- **Advanced Animations**:
+  - **Glitch Effect**: Custom CSS text glitch on the hero section.
+  - **Staggered Reveal**: Grid items pop in sequentially for a cinematic feel.
+  - **Neon Pulse**: Interactive hover states on cards.
+- **Interactive Elements**:
+  - **Custom Cursor**: High-performance, 60fps trailing cursor.
+  - **3D Tilt Cards**: Project cards respond to mouse movement.
+- **Fully Responsive**: Optimized for all devices.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠️ Tech Stack
 
-## Expanding the ESLint configuration
+- **Core**: React 18, Vite
+- **Styling**: Modern CSS3 (Variables, Keyframes, Flexbox/Grid)
+- **Performance**: Intersection Observer for scroll animations (Zero bloat).
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📦 Installation
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/yourusername/portfolio.git
+   cd portfolio
+   ```
+
+2. **Install Dependencies**
+   ```bash
+   npm install
+   ```
+
+3. **Run Local Server**
+   ```bash
+   npm run dev
+   ```
+
+## 🌍 Deployment
+
+This project is configured for **GitHub Pages** (see `vite.config.js`).
+
+To deploy:
+1. Update `base` in `vite.config.js` to match your repository name:
+   ```js
+   base: '/repository-name/'
+   ```
+2. Run build:
+   ```bash
+   npm run build
+   ```
+3. Deploy the `dist` folder.
+
+## 📝 Customization
+
+- **Content**: Edit files in `src/components/` (Hero, TechStack, Projects, etc.).
+- **Styles**: Global variables are in `src/index.css`.
+
+---
+Designed & Built by **Mohammed Toulli**
